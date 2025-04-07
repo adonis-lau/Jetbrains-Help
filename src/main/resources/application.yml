@@ -6,6 +6,6 @@ spring:
 server:
   port: 10768
 help:
-  default-license-name: 光云
-  default-assignee-name: 藏柏
-  default-expiry-date: 2111-11-11
+  default-license-name: Adonis
+  default-assignee-name: Lau
+  default-expiry-date: 2200-02-20
