@@ -1,7 +1,11 @@
 services:
   jetbrains-help:
-    build: .
+    build:
+        context: .
+        dockerfile: Dockerfile
+    restart: always
     image: jetbrains-help:latest
+    network_mode: bridge
     container_name: Jetbrains-Help
     ports:
       - 10768:10768
